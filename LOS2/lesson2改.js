@@ -1,3 +1,18 @@
+var a3 = new Number(200);
+var b3 = a3;
+console.log(a3 == b3);
+console.log(a3 === b3);
+
+b3 = new Number(200);
+console.log(a3 === b3);
+
+var a1 = 20;
+var a2 = 23.4;
+console.log(parseInt(a2));
+console.log(parseFloat("23.456xy"));
+console.log(parseInt === window.parseInt);
+console.log(parseFloat === window.parseFloat);
+
 var str="abc_def_ghi_jkl_mn";
 str.split("_");
 str.split("_",2);
